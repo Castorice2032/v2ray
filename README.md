@@ -36,7 +36,3 @@ python clean_merge_subconverter.py \
   -o my_config.yaml
 
 
-
-
-  chanel api : 7787890538:AAHFg5Lpgz7byfR461jyoPY7W6P9bYmnMNU
-  chanel id : @netnestvpn
