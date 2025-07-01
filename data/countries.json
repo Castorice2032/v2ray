@@ -1,0 +1,1247 @@
+[
+  {
+    "name": "Aruba",
+    "iso_code": "AW",
+    "sticker": ":flag_aw:"
+  },
+  {
+    "name": "Afghanistan",
+    "iso_code": "AF",
+    "sticker": ":flag_af:"
+  },
+  {
+    "name": "Angola",
+    "iso_code": "AO",
+    "sticker": ":flag_ao:"
+  },
+  {
+    "name": "Anguilla",
+    "iso_code": "AI",
+    "sticker": ":flag_ai:"
+  },
+  {
+    "name": "Åland Islands",
+    "iso_code": "AX",
+    "sticker": ":flag_ax:"
+  },
+  {
+    "name": "Albania",
+    "iso_code": "AL",
+    "sticker": ":flag_al:"
+  },
+  {
+    "name": "Andorra",
+    "iso_code": "AD",
+    "sticker": ":flag_ad:"
+  },
+  {
+    "name": "United Arab Emirates",
+    "iso_code": "AE",
+    "sticker": ":flag_ae:"
+  },
+  {
+    "name": "Argentina",
+    "iso_code": "AR",
+    "sticker": ":flag_ar:"
+  },
+  {
+    "name": "Armenia",
+    "iso_code": "AM",
+    "sticker": ":flag_am:"
+  },
+  {
+    "name": "American Samoa",
+    "iso_code": "AS",
+    "sticker": ":flag_as:"
+  },
+  {
+    "name": "Antarctica",
+    "iso_code": "AQ",
+    "sticker": ":flag_aq:"
+  },
+  {
+    "name": "French Southern Territories",
+    "iso_code": "TF",
+    "sticker": ":flag_tf:"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "iso_code": "AG",
+    "sticker": ":flag_ag:"
+  },
+  {
+    "name": "Australia",
+    "iso_code": "AU",
+    "sticker": ":flag_au:"
+  },
+  {
+    "name": "Austria",
+    "iso_code": "AT",
+    "sticker": ":flag_at:"
+  },
+  {
+    "name": "Azerbaijan",
+    "iso_code": "AZ",
+    "sticker": ":flag_az:"
+  },
+  {
+    "name": "Burundi",
+    "iso_code": "BI",
+    "sticker": ":flag_bi:"
+  },
+  {
+    "name": "Belgium",
+    "iso_code": "BE",
+    "sticker": ":flag_be:"
+  },
+  {
+    "name": "Benin",
+    "iso_code": "BJ",
+    "sticker": ":flag_bj:"
+  },
+  {
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "iso_code": "BQ",
+    "sticker": ":flag_bq:"
+  },
+  {
+    "name": "Burkina Faso",
+    "iso_code": "BF",
+    "sticker": ":flag_bf:"
+  },
+  {
+    "name": "Bangladesh",
+    "iso_code": "BD",
+    "sticker": ":flag_bd:"
+  },
+  {
+    "name": "Bulgaria",
+    "iso_code": "BG",
+    "sticker": ":flag_bg:"
+  },
+  {
+    "name": "Bahrain",
+    "iso_code": "BH",
+    "sticker": ":flag_bh:"
+  },
+  {
+    "name": "Bahamas",
+    "iso_code": "BS",
+    "sticker": ":flag_bs:"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "iso_code": "BA",
+    "sticker": ":flag_ba:"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "iso_code": "BL",
+    "sticker": ":flag_bl:"
+  },
+  {
+    "name": "Belarus",
+    "iso_code": "BY",
+    "sticker": ":flag_by:"
+  },
+  {
+    "name": "Belize",
+    "iso_code": "BZ",
+    "sticker": ":flag_bz:"
+  },
+  {
+    "name": "Bermuda",
+    "iso_code": "BM",
+    "sticker": ":flag_bm:"
+  },
+  {
+    "name": "Bolivia, Plurinational State of",
+    "iso_code": "BO",
+    "sticker": ":flag_bo:"
+  },
+  {
+    "name": "Brazil",
+    "iso_code": "BR",
+    "sticker": ":flag_br:"
+  },
+  {
+    "name": "Barbados",
+    "iso_code": "BB",
+    "sticker": ":flag_bb:"
+  },
+  {
+    "name": "Brunei Darussalam",
+    "iso_code": "BN",
+    "sticker": ":flag_bn:"
+  },
+  {
+    "name": "Bhutan",
+    "iso_code": "BT",
+    "sticker": ":flag_bt:"
+  },
+  {
+    "name": "Bouvet Island",
+    "iso_code": "BV",
+    "sticker": ":flag_bv:"
+  },
+  {
+    "name": "Botswana",
+    "iso_code": "BW",
+    "sticker": ":flag_bw:"
+  },
+  {
+    "name": "Central African Republic",
+    "iso_code": "CF",
+    "sticker": ":flag_cf:"
+  },
+  {
+    "name": "Canada",
+    "iso_code": "CA",
+    "sticker": ":flag_ca:"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "iso_code": "CC",
+    "sticker": ":flag_cc:"
+  },
+  {
+    "name": "Switzerland",
+    "iso_code": "CH",
+    "sticker": ":flag_ch:"
+  },
+  {
+    "name": "Chile",
+    "iso_code": "CL",
+    "sticker": ":flag_cl:"
+  },
+  {
+    "name": "China",
+    "iso_code": "CN",
+    "sticker": ":flag_cn:"
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "iso_code": "CI",
+    "sticker": ":flag_ci:"
+  },
+  {
+    "name": "Cameroon",
+    "iso_code": "CM",
+    "sticker": ":flag_cm:"
+  },
+  {
+    "name": "Congo, The Democratic Republic of the",
+    "iso_code": "CD",
+    "sticker": ":flag_cd:"
+  },
+  {
+    "name": "Congo",
+    "iso_code": "CG",
+    "sticker": ":flag_cg:"
+  },
+  {
+    "name": "Cook Islands",
+    "iso_code": "CK",
+    "sticker": ":flag_ck:"
+  },
+  {
+    "name": "Colombia",
+    "iso_code": "CO",
+    "sticker": ":flag_co:"
+  },
+  {
+    "name": "Comoros",
+    "iso_code": "KM",
+    "sticker": ":flag_km:"
+  },
+  {
+    "name": "Cabo Verde",
+    "iso_code": "CV",
+    "sticker": ":flag_cv:"
+  },
+  {
+    "name": "Costa Rica",
+    "iso_code": "CR",
+    "sticker": ":flag_cr:"
+  },
+  {
+    "name": "Cuba",
+    "iso_code": "CU",
+    "sticker": ":flag_cu:"
+  },
+  {
+    "name": "Curaçao",
+    "iso_code": "CW",
+    "sticker": ":flag_cw:"
+  },
+  {
+    "name": "Christmas Island",
+    "iso_code": "CX",
+    "sticker": ":flag_cx:"
+  },
+  {
+    "name": "Cayman Islands",
+    "iso_code": "KY",
+    "sticker": ":flag_ky:"
+  },
+  {
+    "name": "Cyprus",
+    "iso_code": "CY",
+    "sticker": ":flag_cy:"
+  },
+  {
+    "name": "Czechia",
+    "iso_code": "CZ",
+    "sticker": ":flag_cz:"
+  },
+  {
+    "name": "Germany",
+    "iso_code": "DE",
+    "sticker": ":flag_de:"
+  },
+  {
+    "name": "Djibouti",
+    "iso_code": "DJ",
+    "sticker": ":flag_dj:"
+  },
+  {
+    "name": "Dominica",
+    "iso_code": "DM",
+    "sticker": ":flag_dm:"
+  },
+  {
+    "name": "Denmark",
+    "iso_code": "DK",
+    "sticker": ":flag_dk:"
+  },
+  {
+    "name": "Dominican Republic",
+    "iso_code": "DO",
+    "sticker": ":flag_do:"
+  },
+  {
+    "name": "Algeria",
+    "iso_code": "DZ",
+    "sticker": ":flag_dz:"
+  },
+  {
+    "name": "Ecuador",
+    "iso_code": "EC",
+    "sticker": ":flag_ec:"
+  },
+  {
+    "name": "Egypt",
+    "iso_code": "EG",
+    "sticker": ":flag_eg:"
+  },
+  {
+    "name": "Eritrea",
+    "iso_code": "ER",
+    "sticker": ":flag_er:"
+  },
+  {
+    "name": "Western Sahara",
+    "iso_code": "EH",
+    "sticker": ":flag_eh:"
+  },
+  {
+    "name": "Spain",
+    "iso_code": "ES",
+    "sticker": ":flag_es:"
+  },
+  {
+    "name": "Estonia",
+    "iso_code": "EE",
+    "sticker": ":flag_ee:"
+  },
+  {
+    "name": "Ethiopia",
+    "iso_code": "ET",
+    "sticker": ":flag_et:"
+  },
+  {
+    "name": "Finland",
+    "iso_code": "FI",
+    "sticker": ":flag_fi:"
+  },
+  {
+    "name": "Fiji",
+    "iso_code": "FJ",
+    "sticker": ":flag_fj:"
+  },
+  {
+    "name": "Falkland Islands (Malvinas)",
+    "iso_code": "FK",
+    "sticker": ":flag_fk:"
+  },
+  {
+    "name": "France",
+    "iso_code": "FR",
+    "sticker": ":flag_fr:"
+  },
+  {
+    "name": "Faroe Islands",
+    "iso_code": "FO",
+    "sticker": ":flag_fo:"
+  },
+  {
+    "name": "Micronesia, Federated States of",
+    "iso_code": "FM",
+    "sticker": ":flag_fm:"
+  },
+  {
+    "name": "Gabon",
+    "iso_code": "GA",
+    "sticker": ":flag_ga:"
+  },
+  {
+    "name": "United Kingdom",
+    "iso_code": "GB",
+    "sticker": ":flag_gb:"
+  },
+  {
+    "name": "Georgia",
+    "iso_code": "GE",
+    "sticker": ":flag_ge:"
+  },
+  {
+    "name": "Guernsey",
+    "iso_code": "GG",
+    "sticker": ":flag_gg:"
+  },
+  {
+    "name": "Ghana",
+    "iso_code": "GH",
+    "sticker": ":flag_gh:"
+  },
+  {
+    "name": "Gibraltar",
+    "iso_code": "GI",
+    "sticker": ":flag_gi:"
+  },
+  {
+    "name": "Guinea",
+    "iso_code": "GN",
+    "sticker": ":flag_gn:"
+  },
+  {
+    "name": "Guadeloupe",
+    "iso_code": "GP",
+    "sticker": ":flag_gp:"
+  },
+  {
+    "name": "Gambia",
+    "iso_code": "GM",
+    "sticker": ":flag_gm:"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "iso_code": "GW",
+    "sticker": ":flag_gw:"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "iso_code": "GQ",
+    "sticker": ":flag_gq:"
+  },
+  {
+    "name": "Greece",
+    "iso_code": "GR",
+    "sticker": ":flag_gr:"
+  },
+  {
+    "name": "Grenada",
+    "iso_code": "GD",
+    "sticker": ":flag_gd:"
+  },
+  {
+    "name": "Greenland",
+    "iso_code": "GL",
+    "sticker": ":flag_gl:"
+  },
+  {
+    "name": "Guatemala",
+    "iso_code": "GT",
+    "sticker": ":flag_gt:"
+  },
+  {
+    "name": "French Guiana",
+    "iso_code": "GF",
+    "sticker": ":flag_gf:"
+  },
+  {
+    "name": "Guam",
+    "iso_code": "GU",
+    "sticker": ":flag_gu:"
+  },
+  {
+    "name": "Guyana",
+    "iso_code": "GY",
+    "sticker": ":flag_gy:"
+  },
+  {
+    "name": "Hong Kong",
+    "iso_code": "HK",
+    "sticker": ":flag_hk:"
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "iso_code": "HM",
+    "sticker": ":flag_hm:"
+  },
+  {
+    "name": "Honduras",
+    "iso_code": "HN",
+    "sticker": ":flag_hn:"
+  },
+  {
+    "name": "Croatia",
+    "iso_code": "HR",
+    "sticker": ":flag_hr:"
+  },
+  {
+    "name": "Haiti",
+    "iso_code": "HT",
+    "sticker": ":flag_ht:"
+  },
+  {
+    "name": "Hungary",
+    "iso_code": "HU",
+    "sticker": ":flag_hu:"
+  },
+  {
+    "name": "Indonesia",
+    "iso_code": "ID",
+    "sticker": ":flag_id:"
+  },
+  {
+    "name": "Isle of Man",
+    "iso_code": "IM",
+    "sticker": ":flag_im:"
+  },
+  {
+    "name": "India",
+    "iso_code": "IN",
+    "sticker": ":flag_in:"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "iso_code": "IO",
+    "sticker": ":flag_io:"
+  },
+  {
+    "name": "Ireland",
+    "iso_code": "IE",
+    "sticker": ":flag_ie:"
+  },
+  {
+    "name": "Iran, Islamic Republic of",
+    "iso_code": "IR",
+    "sticker": ":flag_ir:"
+  },
+  {
+    "name": "Iraq",
+    "iso_code": "IQ",
+    "sticker": ":flag_iq:"
+  },
+  {
+    "name": "Iceland",
+    "iso_code": "IS",
+    "sticker": ":flag_is:"
+  },
+  {
+    "name": "Israel",
+    "iso_code": "IL",
+    "sticker": ":flag_il:"
+  },
+  {
+    "name": "Italy",
+    "iso_code": "IT",
+    "sticker": ":flag_it:"
+  },
+  {
+    "name": "Jamaica",
+    "iso_code": "JM",
+    "sticker": ":flag_jm:"
+  },
+  {
+    "name": "Jersey",
+    "iso_code": "JE",
+    "sticker": ":flag_je:"
+  },
+  {
+    "name": "Jordan",
+    "iso_code": "JO",
+    "sticker": ":flag_jo:"
+  },
+  {
+    "name": "Japan",
+    "iso_code": "JP",
+    "sticker": ":flag_jp:"
+  },
+  {
+    "name": "Kazakhstan",
+    "iso_code": "KZ",
+    "sticker": ":flag_kz:"
+  },
+  {
+    "name": "Kenya",
+    "iso_code": "KE",
+    "sticker": ":flag_ke:"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "iso_code": "KG",
+    "sticker": ":flag_kg:"
+  },
+  {
+    "name": "Cambodia",
+    "iso_code": "KH",
+    "sticker": ":flag_kh:"
+  },
+  {
+    "name": "Kiribati",
+    "iso_code": "KI",
+    "sticker": ":flag_ki:"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "iso_code": "KN",
+    "sticker": ":flag_kn:"
+  },
+  {
+    "name": "Korea, Republic of",
+    "iso_code": "KR",
+    "sticker": ":flag_kr:"
+  },
+  {
+    "name": "Kuwait",
+    "iso_code": "KW",
+    "sticker": ":flag_kw:"
+  },
+  {
+    "name": "Lao People's Democratic Republic",
+    "iso_code": "LA",
+    "sticker": ":flag_la:"
+  },
+  {
+    "name": "Lebanon",
+    "iso_code": "LB",
+    "sticker": ":flag_lb:"
+  },
+  {
+    "name": "Liberia",
+    "iso_code": "LR",
+    "sticker": ":flag_lr:"
+  },
+  {
+    "name": "Libya",
+    "iso_code": "LY",
+    "sticker": ":flag_ly:"
+  },
+  {
+    "name": "Saint Lucia",
+    "iso_code": "LC",
+    "sticker": ":flag_lc:"
+  },
+  {
+    "name": "Liechtenstein",
+    "iso_code": "LI",
+    "sticker": ":flag_li:"
+  },
+  {
+    "name": "Sri Lanka",
+    "iso_code": "LK",
+    "sticker": ":flag_lk:"
+  },
+  {
+    "name": "Lesotho",
+    "iso_code": "LS",
+    "sticker": ":flag_ls:"
+  },
+  {
+    "name": "Lithuania",
+    "iso_code": "LT",
+    "sticker": ":flag_lt:"
+  },
+  {
+    "name": "Luxembourg",
+    "iso_code": "LU",
+    "sticker": ":flag_lu:"
+  },
+  {
+    "name": "Latvia",
+    "iso_code": "LV",
+    "sticker": ":flag_lv:"
+  },
+  {
+    "name": "Macao",
+    "iso_code": "MO",
+    "sticker": ":flag_mo:"
+  },
+  {
+    "name": "Saint Martin (French part)",
+    "iso_code": "MF",
+    "sticker": ":flag_mf:"
+  },
+  {
+    "name": "Morocco",
+    "iso_code": "MA",
+    "sticker": ":flag_ma:"
+  },
+  {
+    "name": "Monaco",
+    "iso_code": "MC",
+    "sticker": ":flag_mc:"
+  },
+  {
+    "name": "Moldova, Republic of",
+    "iso_code": "MD",
+    "sticker": ":flag_md:"
+  },
+  {
+    "name": "Madagascar",
+    "iso_code": "MG",
+    "sticker": ":flag_mg:"
+  },
+  {
+    "name": "Maldives",
+    "iso_code": "MV",
+    "sticker": ":flag_mv:"
+  },
+  {
+    "name": "Mexico",
+    "iso_code": "MX",
+    "sticker": ":flag_mx:"
+  },
+  {
+    "name": "Marshall Islands",
+    "iso_code": "MH",
+    "sticker": ":flag_mh:"
+  },
+  {
+    "name": "North Macedonia",
+    "iso_code": "MK",
+    "sticker": ":flag_mk:"
+  },
+  {
+    "name": "Mali",
+    "iso_code": "ML",
+    "sticker": ":flag_ml:"
+  },
+  {
+    "name": "Malta",
+    "iso_code": "MT",
+    "sticker": ":flag_mt:"
+  },
+  {
+    "name": "Myanmar",
+    "iso_code": "MM",
+    "sticker": ":flag_mm:"
+  },
+  {
+    "name": "Montenegro",
+    "iso_code": "ME",
+    "sticker": ":flag_me:"
+  },
+  {
+    "name": "Mongolia",
+    "iso_code": "MN",
+    "sticker": ":flag_mn:"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "iso_code": "MP",
+    "sticker": ":flag_mp:"
+  },
+  {
+    "name": "Mozambique",
+    "iso_code": "MZ",
+    "sticker": ":flag_mz:"
+  },
+  {
+    "name": "Mauritania",
+    "iso_code": "MR",
+    "sticker": ":flag_mr:"
+  },
+  {
+    "name": "Montserrat",
+    "iso_code": "MS",
+    "sticker": ":flag_ms:"
+  },
+  {
+    "name": "Martinique",
+    "iso_code": "MQ",
+    "sticker": ":flag_mq:"
+  },
+  {
+    "name": "Mauritius",
+    "iso_code": "MU",
+    "sticker": ":flag_mu:"
+  },
+  {
+    "name": "Malawi",
+    "iso_code": "MW",
+    "sticker": ":flag_mw:"
+  },
+  {
+    "name": "Malaysia",
+    "iso_code": "MY",
+    "sticker": ":flag_my:"
+  },
+  {
+    "name": "Mayotte",
+    "iso_code": "YT",
+    "sticker": ":flag_yt:"
+  },
+  {
+    "name": "Namibia",
+    "iso_code": "NA",
+    "sticker": ":flag_na:"
+  },
+  {
+    "name": "New Caledonia",
+    "iso_code": "NC",
+    "sticker": ":flag_nc:"
+  },
+  {
+    "name": "Niger",
+    "iso_code": "NE",
+    "sticker": ":flag_ne:"
+  },
+  {
+    "name": "Norfolk Island",
+    "iso_code": "NF",
+    "sticker": ":flag_nf:"
+  },
+  {
+    "name": "Nigeria",
+    "iso_code": "NG",
+    "sticker": ":flag_ng:"
+  },
+  {
+    "name": "Nicaragua",
+    "iso_code": "NI",
+    "sticker": ":flag_ni:"
+  },
+  {
+    "name": "Niue",
+    "iso_code": "NU",
+    "sticker": ":flag_nu:"
+  },
+  {
+    "name": "Netherlands",
+    "iso_code": "NL",
+    "sticker": ":flag_nl:"
+  },
+  {
+    "name": "Norway",
+    "iso_code": "NO",
+    "sticker": ":flag_no:"
+  },
+  {
+    "name": "Nepal",
+    "iso_code": "NP",
+    "sticker": ":flag_np:"
+  },
+  {
+    "name": "Nauru",
+    "iso_code": "NR",
+    "sticker": ":flag_nr:"
+  },
+  {
+    "name": "New Zealand",
+    "iso_code": "NZ",
+    "sticker": ":flag_nz:"
+  },
+  {
+    "name": "Oman",
+    "iso_code": "OM",
+    "sticker": ":flag_om:"
+  },
+  {
+    "name": "Pakistan",
+    "iso_code": "PK",
+    "sticker": ":flag_pk:"
+  },
+  {
+    "name": "Panama",
+    "iso_code": "PA",
+    "sticker": ":flag_pa:"
+  },
+  {
+    "name": "Pitcairn",
+    "iso_code": "PN",
+    "sticker": ":flag_pn:"
+  },
+  {
+    "name": "Peru",
+    "iso_code": "PE",
+    "sticker": ":flag_pe:"
+  },
+  {
+    "name": "Philippines",
+    "iso_code": "PH",
+    "sticker": ":flag_ph:"
+  },
+  {
+    "name": "Palau",
+    "iso_code": "PW",
+    "sticker": ":flag_pw:"
+  },
+  {
+    "name": "Papua New Guinea",
+    "iso_code": "PG",
+    "sticker": ":flag_pg:"
+  },
+  {
+    "name": "Poland",
+    "iso_code": "PL",
+    "sticker": ":flag_pl:"
+  },
+  {
+    "name": "Puerto Rico",
+    "iso_code": "PR",
+    "sticker": ":flag_pr:"
+  },
+  {
+    "name": "Korea, Democratic People's Republic of",
+    "iso_code": "KP",
+    "sticker": ":flag_kp:"
+  },
+  {
+    "name": "Portugal",
+    "iso_code": "PT",
+    "sticker": ":flag_pt:"
+  },
+  {
+    "name": "Paraguay",
+    "iso_code": "PY",
+    "sticker": ":flag_py:"
+  },
+  {
+    "name": "Palestine, State of",
+    "iso_code": "PS",
+    "sticker": ":flag_ps:"
+  },
+  {
+    "name": "French Polynesia",
+    "iso_code": "PF",
+    "sticker": ":flag_pf:"
+  },
+  {
+    "name": "Qatar",
+    "iso_code": "QA",
+    "sticker": ":flag_qa:"
+  },
+  {
+    "name": "Réunion",
+    "iso_code": "RE",
+    "sticker": ":flag_re:"
+  },
+  {
+    "name": "Romania",
+    "iso_code": "RO",
+    "sticker": ":flag_ro:"
+  },
+  {
+    "name": "Russian Federation",
+    "iso_code": "RU",
+    "sticker": ":flag_ru:"
+  },
+  {
+    "name": "Rwanda",
+    "iso_code": "RW",
+    "sticker": ":flag_rw:"
+  },
+  {
+    "name": "Saudi Arabia",
+    "iso_code": "SA",
+    "sticker": ":flag_sa:"
+  },
+  {
+    "name": "Sudan",
+    "iso_code": "SD",
+    "sticker": ":flag_sd:"
+  },
+  {
+    "name": "Senegal",
+    "iso_code": "SN",
+    "sticker": ":flag_sn:"
+  },
+  {
+    "name": "Singapore",
+    "iso_code": "SG",
+    "sticker": ":flag_sg:"
+  },
+  {
+    "name": "South Georgia and the South Sandwich Islands",
+    "iso_code": "GS",
+    "sticker": ":flag_gs:"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "iso_code": "SH",
+    "sticker": ":flag_sh:"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "iso_code": "SJ",
+    "sticker": ":flag_sj:"
+  },
+  {
+    "name": "Solomon Islands",
+    "iso_code": "SB",
+    "sticker": ":flag_sb:"
+  },
+  {
+    "name": "Sierra Leone",
+    "iso_code": "SL",
+    "sticker": ":flag_sl:"
+  },
+  {
+    "name": "El Salvador",
+    "iso_code": "SV",
+    "sticker": ":flag_sv:"
+  },
+  {
+    "name": "San Marino",
+    "iso_code": "SM",
+    "sticker": ":flag_sm:"
+  },
+  {
+    "name": "Somalia",
+    "iso_code": "SO",
+    "sticker": ":flag_so:"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "iso_code": "PM",
+    "sticker": ":flag_pm:"
+  },
+  {
+    "name": "Serbia",
+    "iso_code": "RS",
+    "sticker": ":flag_rs:"
+  },
+  {
+    "name": "South Sudan",
+    "iso_code": "SS",
+    "sticker": ":flag_ss:"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "iso_code": "ST",
+    "sticker": ":flag_st:"
+  },
+  {
+    "name": "Suriname",
+    "iso_code": "SR",
+    "sticker": ":flag_sr:"
+  },
+  {
+    "name": "Slovakia",
+    "iso_code": "SK",
+    "sticker": ":flag_sk:"
+  },
+  {
+    "name": "Slovenia",
+    "iso_code": "SI",
+    "sticker": ":flag_si:"
+  },
+  {
+    "name": "Sweden",
+    "iso_code": "SE",
+    "sticker": ":flag_se:"
+  },
+  {
+    "name": "Eswatini",
+    "iso_code": "SZ",
+    "sticker": ":flag_sz:"
+  },
+  {
+    "name": "Sint Maarten (Dutch part)",
+    "iso_code": "SX",
+    "sticker": ":flag_sx:"
+  },
+  {
+    "name": "Seychelles",
+    "iso_code": "SC",
+    "sticker": ":flag_sc:"
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "iso_code": "SY",
+    "sticker": ":flag_sy:"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "iso_code": "TC",
+    "sticker": ":flag_tc:"
+  },
+  {
+    "name": "Chad",
+    "iso_code": "TD",
+    "sticker": ":flag_td:"
+  },
+  {
+    "name": "Togo",
+    "iso_code": "TG",
+    "sticker": ":flag_tg:"
+  },
+  {
+    "name": "Thailand",
+    "iso_code": "TH",
+    "sticker": ":flag_th:"
+  },
+  {
+    "name": "Tajikistan",
+    "iso_code": "TJ",
+    "sticker": ":flag_tj:"
+  },
+  {
+    "name": "Tokelau",
+    "iso_code": "TK",
+    "sticker": ":flag_tk:"
+  },
+  {
+    "name": "Turkmenistan",
+    "iso_code": "TM",
+    "sticker": ":flag_tm:"
+  },
+  {
+    "name": "Timor-Leste",
+    "iso_code": "TL",
+    "sticker": ":flag_tl:"
+  },
+  {
+    "name": "Tonga",
+    "iso_code": "TO",
+    "sticker": ":flag_to:"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "iso_code": "TT",
+    "sticker": ":flag_tt:"
+  },
+  {
+    "name": "Tunisia",
+    "iso_code": "TN",
+    "sticker": ":flag_tn:"
+  },
+  {
+    "name": "Turkey",
+    "iso_code": "TR",
+    "sticker": ":flag_tr:"
+  },
+  {
+    "name": "Tuvalu",
+    "iso_code": "TV",
+    "sticker": ":flag_tv:"
+  },
+  {
+    "name": "Taiwan, Province of China",
+    "iso_code": "TW",
+    "sticker": ":flag_tw:"
+  },
+  {
+    "name": "Tanzania, United Republic of",
+    "iso_code": "TZ",
+    "sticker": ":flag_tz:"
+  },
+  {
+    "name": "Uganda",
+    "iso_code": "UG",
+    "sticker": ":flag_ug:"
+  },
+  {
+    "name": "Ukraine",
+    "iso_code": "UA",
+    "sticker": ":flag_ua:"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "iso_code": "UM",
+    "sticker": ":flag_um:"
+  },
+  {
+    "name": "Uruguay",
+    "iso_code": "UY",
+    "sticker": ":flag_uy:"
+  },
+  {
+    "name": "United States",
+    "iso_code": "US",
+    "sticker": ":flag_us:"
+  },
+  {
+    "name": "Uzbekistan",
+    "iso_code": "UZ",
+    "sticker": ":flag_uz:"
+  },
+  {
+    "name": "Holy See (Vatican City State)",
+    "iso_code": "VA",
+    "sticker": ":flag_va:"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "iso_code": "VC",
+    "sticker": ":flag_vc:"
+  },
+  {
+    "name": "Venezuela, Bolivarian Republic of",
+    "iso_code": "VE",
+    "sticker": ":flag_ve:"
+  },
+  {
+    "name": "Virgin Islands, British",
+    "iso_code": "VG",
+    "sticker": ":flag_vg:"
+  },
+  {
+    "name": "Virgin Islands, U.S.",
+    "iso_code": "VI",
+    "sticker": ":flag_vi:"
+  },
+  {
+    "name": "Viet Nam",
+    "iso_code": "VN",
+    "sticker": ":flag_vn:"
+  },
+  {
+    "name": "Vanuatu",
+    "iso_code": "VU",
+    "sticker": ":flag_vu:"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "iso_code": "WF",
+    "sticker": ":flag_wf:"
+  },
+  {
+    "name": "Samoa",
+    "iso_code": "WS",
+    "sticker": ":flag_ws:"
+  },
+  {
+    "name": "Yemen",
+    "iso_code": "YE",
+    "sticker": ":flag_ye:"
+  },
+  {
+    "name": "South Africa",
+    "iso_code": "ZA",
+    "sticker": ":flag_za:"
+  },
+  {
+    "name": "Zambia",
+    "iso_code": "ZM",
+    "sticker": ":flag_zm:"
+  },
+  {
+    "name": "Zimbabwe",
+    "iso_code": "ZW",
+    "sticker": ":flag_zw:"
+  }
+]

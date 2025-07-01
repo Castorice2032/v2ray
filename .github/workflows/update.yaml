@@ -1,31 +1,38 @@
-name: Analyze Proxies
+name: Analyze Proxies           # ← اختیاری
 
 on:
-  schedule:
-    - cron: '0 * * * *'          # رأس هر ساعتِ UTC (مثلاً 01:00, 02:00 …)
-  workflow_dispatch:             # اجرا به‌صورت دستی
+  schedule:                     # ← لازم برای اجرا هر ساعت
+    - cron: "0 * * * *"         # UTC; رأس هر ساعت
+  workflow_dispatch:            # ← اجرای دستی از تب Actions
 
 concurrency:
-  group: analyze-proxies         # فقط یک job هم‌زمان
-  cancel-in-progress: false      # اجرای جدید صبر می‌کند (بک‌آپ امنیتی)
+  group: analyze-proxies
+  cancel-in-progress: false
 
 jobs:
   analyze:
     runs-on: ubuntu-latest
-    timeout-minutes: 58          # حداکثر 58 دقیقه اجرا
+    timeout-minutes: 58
 
     steps:
       - uses: actions/checkout@v3
 
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install deps
         run: |
-          python -m pip install -r requirements.txt
+          pip install -r requirements.txt
 
-      - name: Run analyzer (auto-resume)
+      - name: Run analyzer
         run: |
           python utils/analyze.py
 
+      - name: Commit updated reports
+        run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@users.noreply"
+          git add data/output/*.json data/logs/*.json data/tmp/analyze_state.json
+          git commit -m "auto: update reports $(date -u '+%Y-%m-%d %H:%M')" || echo "nothing to commit"
+          git push
