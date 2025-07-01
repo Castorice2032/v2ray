@@ -1,0 +1,31 @@
+name: Analyze Proxies
+
+on:
+  schedule:
+    - cron: '0 * * * *'          # رأس هر ساعتِ UTC (مثلاً 01:00, 02:00 …)
+  workflow_dispatch:             # اجرا به‌صورت دستی
+
+concurrency:
+  group: analyze-proxies         # فقط یک job هم‌زمان
+  cancel-in-progress: false      # اجرای جدید صبر می‌کند (بک‌آپ امنیتی)
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58          # حداکثر 58 دقیقه اجرا
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install -r requirements.txt
+
+      - name: Run analyzer (auto-resume)
+        run: |
+          python utils/analyze.py
+
