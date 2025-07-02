@@ -1,0 +1,499 @@
+{
+  "log": {
+    "level": "debug"
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 7890
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-us-208-87-243-151-17549-52",
+      "server": "208.87.243.151",
+      "server_port": 17549,
+      "up_mbps": 1000,
+      "down_mbps": 1000,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.bing.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-nl-51-159-226-1-14241-53",
+      "server": "51.159.226.1",
+      "server_port": 14241,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-ru-185-22-155-71-10803-54",
+      "server": "185.22.155.71",
+      "server_port": 10803,
+      "up_mbps": 1000,
+      "down_mbps": 1000,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.bing.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-fr-51-158-54-46-55396-55",
+      "server": "51.158.54.46",
+      "server_port": 55396,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "youku.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-de-130-61-24-219-443-56",
+      "server": "130.61.24.219",
+      "server_port": 443,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "password": "483f8ef7-8480-490d-92fb-1fc392fb34b6",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-us-108-181-24-77-11512-57",
+      "server": "108.181.24.77",
+      "server_port": 11512,
+      "up_mbps": 10,
+      "down_mbps": 50,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-fr-141-145-194-153-443-58",
+      "server": "141.145.194.153",
+      "server_port": 443,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "password": "483f8ef7-8480-490d-92fb-1fc392fb34b6",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-ru-46-17-41-174-10469-59",
+      "server": "46.17.41.174",
+      "server_port": 10469,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-us-208-87-243-187-40528-60",
+      "server": "208.87.243.187",
+      "server_port": 40528,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-fr-195-154-200-40-15010-61",
+      "server": "195.154.200.40",
+      "server_port": 15010,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-ru-176-32-35-226-62003-62",
+      "server": "176.32.35.226",
+      "server_port": 62003,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-us-74-48-18-240-27564-63",
+      "server": "74.48.18.240",
+      "server_port": 27564,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "sZEvQgYdkXmx76LH1aZmtqXVP1glIV5BnRiDALrdj9sNl2QfdE",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "wechat.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-fr-195-154-200-178-46938-64",
+      "server": "195.154.200.178",
+      "server_port": 46938,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-us-74-48-18-240-27564-145",
+      "server": "74.48.18.240",
+      "server_port": 27564,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "sZEvQgYdkXmx76LH1aZmtqXVP1glIV5BnRiDALrdj9sNl2QfdE",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "wechat.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-us-208-87-243-151-17549-146",
+      "server": "208.87.243.151",
+      "server_port": 17549,
+      "up_mbps": 1000,
+      "down_mbps": 1000,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.bing.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-ru-185-22-155-71-10803-147",
+      "server": "185.22.155.71",
+      "server_port": 10803,
+      "up_mbps": 1000,
+      "down_mbps": 1000,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.bing.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-fr-141-145-194-153-443-148",
+      "server": "141.145.194.153",
+      "server_port": 443,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "password": "483f8ef7-8480-490d-92fb-1fc392fb34b6",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-ru-46-17-41-174-10469-149",
+      "server": "46.17.41.174",
+      "server_port": 10469,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-nl-51-159-226-1-14241-150",
+      "server": "51.159.226.1",
+      "server_port": 14241,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-us-208-87-243-187-40528-151",
+      "server": "208.87.243.187",
+      "server_port": 40528,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-fr-51-158-54-46-55396-152",
+      "server": "51.158.54.46",
+      "server_port": 55396,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "youku.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-ru-176-32-35-226-62003-153",
+      "server": "176.32.35.226",
+      "server_port": 62003,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-fr-195-154-200-40-15010-154",
+      "server": "195.154.200.40",
+      "server_port": 15010,
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-us-108-181-24-77-11512-155",
+      "server": "108.181.24.77",
+      "server_port": 11512,
+      "up_mbps": 10,
+      "down_mbps": 50,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-fr-195-154-200-178-46938-156",
+      "server": "195.154.200.178",
+      "server_port": 46938,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "apple.com",
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria-udp-de-130-61-24-219-443-157",
+      "server": "130.61.24.219",
+      "server_port": 443,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "password": "483f8ef7-8480-490d-92fb-1fc392fb34b6",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "hysteria-udp-us-208-87-243-151-17549-52",
+        "hysteria-udp-nl-51-159-226-1-14241-53",
+        "hysteria-udp-ru-185-22-155-71-10803-54",
+        "hysteria-udp-fr-51-158-54-46-55396-55",
+        "hysteria-udp-de-130-61-24-219-443-56",
+        "hysteria-udp-us-108-181-24-77-11512-57",
+        "hysteria-udp-fr-141-145-194-153-443-58",
+        "hysteria-udp-ru-46-17-41-174-10469-59",
+        "hysteria-udp-us-208-87-243-187-40528-60",
+        "hysteria-udp-fr-195-154-200-40-15010-61",
+        "hysteria-udp-ru-176-32-35-226-62003-62",
+        "hysteria-udp-us-74-48-18-240-27564-63",
+        "hysteria-udp-fr-195-154-200-178-46938-64",
+        "hysteria-udp-us-74-48-18-240-27564-145",
+        "hysteria-udp-us-208-87-243-151-17549-146",
+        "hysteria-udp-ru-185-22-155-71-10803-147",
+        "hysteria-udp-fr-141-145-194-153-443-148",
+        "hysteria-udp-ru-46-17-41-174-10469-149",
+        "hysteria-udp-nl-51-159-226-1-14241-150",
+        "hysteria-udp-us-208-87-243-187-40528-151",
+        "hysteria-udp-fr-51-158-54-46-55396-152",
+        "hysteria-udp-ru-176-32-35-226-62003-153",
+        "hysteria-udp-fr-195-154-200-40-15010-154",
+        "hysteria-udp-us-108-181-24-77-11512-155",
+        "hysteria-udp-fr-195-154-200-178-46938-156",
+        "hysteria-udp-de-130-61-24-219-443-157"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "10s",
+      "tolerance": 150
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true
+  }
+}

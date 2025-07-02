@@ -62,6 +62,7 @@ https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main
 https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/subscriptions/az404.4.8mt.txt
 https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/subscriptions/b.txt
 https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/subscriptions/c.txt
+https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt
 
 
 #object
@@ -72,3 +73,6 @@ https://clashe.eu.org/clash/proxies
 https://proxy.crazygeeky.com/clash/proxies
 https://proxypool.link/clash/proxies
 
+
+# singbox_configs
+https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/singbox_configs.json

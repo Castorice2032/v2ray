@@ -6,10 +6,11 @@ import base64
 from concurrent.futures import ThreadPoolExecutor
 
 URLS_FILE = "../urls.txt"
-OUTPUT_FILE = "../data/input/urls_type.json"
+OUTPUT_FILE = "../data/json/urls_type.json"
 
 # Regex patterns for proxy types
 PATTERNS = {
+    
     "vmess": re.compile(r"^vmess://", re.MULTILINE),
     "vless": re.compile(r"^vless://", re.MULTILINE),
     "trojan": re.compile(r"^trojan://", re.MULTILINE),
