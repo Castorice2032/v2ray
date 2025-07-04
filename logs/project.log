@@ -1,0 +1,11 @@
+[2025-07-04 23:09:39,634] DEBUG __main__: این یک پیام DEBUG است برای تست جزئیات.
+[2025-07-04 23:09:39,634] INFO __main__: این یک پیام INFO است برای اطلاعات عمومی.
+[2025-07-04 23:09:39,635] WARNING __main__: این یک پیام WARNING است برای هشدار.
+[2025-07-04 23:09:39,635] ERROR __main__: این یک پیام ERROR است برای خطاها.
+[2025-07-04 23:09:39,635] ERROR __main__: یک استثنا رخ داد: division by zero
+Traceback (most recent call last):
+  File "/workspaces/v2ray/test/log.test.py", line 21, in test_logging
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+[2025-07-04 23:24:29,595] ERROR DatabaseManager: No database URL found in .env. Please set DATABASE_URL, DB_URL, or POSTGRES_URL.

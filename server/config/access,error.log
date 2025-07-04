@@ -1,0 +1,88 @@
+#!/usr/bin/env python3
+"""
+check_xray.py
+─────────────
+یک هندشیک کامل با Xray سرور محلی انجام می‌دهد و
+فقط «true» یا «false» خروجی می‌دهد.
+
+نحوهٔ استفاده:
+    python check_xray.py --config ./config/config.json
+    python check_xray.py --config ./config/config.json --socks-port 1081
+    python check_xray.py               # ← مقادیر پیش‌فرض داخلی را تست می‌کند
+"""
+import argparse, os, signal, subprocess, sys, time
+import requests   # pip install requests[socks]
+
+DEFAULT_XRAY_BIN   = "./xray"               # اگر در PATH نیست، مسیر را عوض کن
+DEFAULT_CONFIG     = "./config/config.json" # مسیر کانفیگ
+DEFAULT_SOCKS_PORT = 1080                   # همان پورتی که در inbound SOCKS گذاشتی
+TEST_URL           = "https://www.gstatic.com/generate_204"  # پاسخ 204 سریع
+
+def start_xray(bin_path: str, cfg_path: str) -> subprocess.Popen:
+    """Xray را اجرا می‌کند و منتظر پیام «started» می‌ماند."""
+    proc = subprocess.Popen(
+        [bin_path, "run", "-config", cfg_path],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        text=True,
+        bufsize=1,
+    )
+    # تا 10 ثانیه صبر می‌کنیم برای پیام «started»
+    deadline = time.time() + 10
+    for line in proc.stdout:
+        if "started" in line.lower():
+            return proc
+        if "failed" in line.lower():
+            proc.terminate()
+            raise RuntimeError(f"❌ Xray error:\n{line.strip()}")
+        if time.time() > deadline:
+            proc.terminate()
+            raise TimeoutError("⏰ Xray did not start within 10 s")
+    raise RuntimeError("❌ Xray exited unexpectedly")
+
+def stop_xray(proc: subprocess.Popen):
+    """ختم نرم Xray."""
+    if proc.poll() is None:          # هنوز در حال اجراست؟
+        proc.send_signal(signal.SIGINT)
+        try:
+            proc.wait(timeout=5)
+        except subprocess.TimeoutExpired:
+            proc.kill()
+
+def test_proxy(port: int) -> bool:
+    """یک GET سریع از طریق SOCKS5 می‌زند؛ موفق= True  /  خطا=False."""
+    proxies = {
+        "http":  f"socks5h://127.0.0.1:{port}",
+        "https": f"socks5h://127.0.0.1:{port}",
+    }
+    try:
+        r = requests.get(TEST_URL, proxies=proxies, timeout=8)
+        return r.status_code in (200, 204)
+    except Exception:
+        return False
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--bin",        default=DEFAULT_XRAY_BIN,   help="مسیر باینری xray")
+    ap.add_argument("--config",     default=DEFAULT_CONFIG,     help="مسیر فایل config.json")
+    ap.add_argument("--socks-port", default=DEFAULT_SOCKS_PORT, type=int,
+                    help="پورتی که inbound SOCKS5 روی آن گوش می‌دهد")
+    args = ap.parse_args()
+
+    try:
+        proc = start_xray(args.bin, args.config)
+        success = test_proxy(args.socks_port)
+    except Exception as exc:
+        print("false")
+        sys.exit(1)
+    finally:
+        try:
+            stop_xray(proc)
+        except Exception:
+            pass
+
+    print("true" if success else "false")
+    sys.exit(0 if success else 1)
+
+if __name__ == "__main__":
+    main()

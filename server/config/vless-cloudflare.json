@@ -1,0 +1,116 @@
+{
+  "log": {
+    "loglevel": "debug",
+    "access": "/dev/stdout",
+    "error": "/dev/stderr"
+  },
+
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "8.8.8.8",
+      "9.9.9.9",
+      "1.0.0.1",
+      "8.8.4.4",
+      "2606:4700:4700::1111",
+      "2620:fe::fe"
+    ]
+  },
+
+  "inbounds": [
+    {
+      "tag": "socks",
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      }
+    }
+  ],
+
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.124.175.39",
+            "port": 443,
+            "users": [
+              {
+                "id": "9ee9e993-8358-4ac4-a5d5-080660fed4d5",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "http",
+            "request": {
+              "method": "GET",
+              "path": ["/"],
+              "headers": {
+                "Host": ["cloudflare.com"],
+                "User-Agent": [
+                  "Mozilla/5.0 (Linux; Android 10; K) Chrome/126 Mobile"
+                ],
+                "Accept-Encoding": ["gzip, deflate"],
+                "Connection": ["keep-alive"],
+                "Pragma": ["no-cache"]
+              },
+              "version": "1.1"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": { "type": "http" }
+      }
+    }
+  ],
+
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "domain": [
+          "domain:ir",
+          "geosite:category-ads-all"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private",
+          "geoip:ir"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "outboundTag": "proxy",
+        "network": "tcp,udp"
+      }
+    ]
+  }
+}
