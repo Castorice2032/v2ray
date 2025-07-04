@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProxyNode",
+  "type": "object",
+  "required": ["raw", "tag", "type", "config"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "raw": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["ss", "vmess", "vless", "trojan", "hysteria2"]
+    },
+    "config": {
+      "type": "object"
+    },
+    "region": {
+      "type": "string"
+    },
+    "ping_ms": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["up", "down", "unknown"]
+    },
+    "last_checked_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

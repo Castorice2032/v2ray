@@ -1,0 +1,47 @@
+{
+  "total_links": 93509,
+  "total_valid": 0,
+  "total_bad": 93509,
+  "total_duplicate": 0,
+  "per_protocol": {
+    "ss": {
+      "total": 10241,
+      "valid": 0,
+      "bad": 10241,
+      "duplicate": 0
+    },
+    "vmess": {
+      "total": 23164,
+      "valid": 0,
+      "bad": 23164,
+      "duplicate": 0
+    },
+    "vless": {
+      "total": 48298,
+      "valid": 0,
+      "bad": 48298,
+      "duplicate": 0
+    },
+    "trojan": {
+      "total": 11589,
+      "valid": 0,
+      "bad": 11589,
+      "duplicate": 0
+    },
+    "hysteria": {
+      "total": 217,
+      "valid": 0,
+      "bad": 217,
+      "duplicate": 0
+    }
+  },
+  "bad_links": {
+    "ss": "bad_ss.log",
+    "vmess": "bad_vmess.log",
+    "vless": "bad_vless.log",
+    "trojan": "bad_trojan.log",
+    "hysteria": "bad_hysteria.log"
+  },
+  "duplicates": {},
+  "last_update": "2025-07-03 15:56:19"
+}

@@ -1,0 +1,1108 @@
+{
+  "summary": {
+    "generated_at": "2025-07-03 01:19:58",
+    "total_urls_processed": 144,
+    "total_nodes": 93509,
+    "per_protocol": {
+      "vmess": 23164,
+      "vless": 48298,
+      "trojan": 11589,
+      "ss": 10241,
+      "hysteria": 217
+    },
+    "last_update": "2025-07-03 01:19:58"
+  },
+  "items": {
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/gist_config/zzzZZzzZZee_clash.yaml": {
+      "type": "clash_yaml",
+      "total": 8,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 4,
+        "vless": 4
+      }
+    },
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/top_size/yb_v2rayse_sub.yaml": {
+      "type": "clash_yaml",
+      "total": 35,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 18,
+        "trojan": 17
+      }
+    },
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/top_size/yb_v2rayse_sub1.yaml": {
+      "type": "clash_yaml",
+      "total": 35,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 18,
+        "trojan": 17
+      }
+    },
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/gist_config/xiaotu9639_clash.yaml": {
+      "type": "clash_yaml",
+      "total": 179,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 95,
+        "vless": 37,
+        "ss": 44,
+        "trojan": 3
+      }
+    },
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/github_config/Surfboardv2ray_Proxy-sorter_clash.yaml": {
+      "type": "clash_yaml",
+      "total": 180,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 180
+      }
+    },
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/github_config/freeorgOP.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 39,
+      "per_protocol": {}
+    },
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/gist_config/CKCat_clash.yaml": {
+      "type": "clash_yaml",
+      "total": 125,
+      "children": 1,
+      "per_protocol": {
+        "vless": 15,
+        "ss": 58,
+        "trojan": 6,
+        "vmess": 46
+      }
+    },
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/gist_config/ye4241_clash.yaml": {
+      "type": "clash_yaml",
+      "total": 170,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 103,
+        "ss": 39,
+        "vless": 28
+      }
+    },
+    "https://gitlab.com/wybgit/surge_conf/-/raw/main/gist_config/Cyndri_clash.yaml": {
+      "type": "clash_yaml",
+      "total": 177,
+      "children": 1,
+      "per_protocol": {
+        "ss": 71,
+        "vmess": 37,
+        "vless": 69
+      }
+    },
+    "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml": {
+      "type": "clash_yaml",
+      "total": 102,
+      "children": 14,
+      "per_protocol": {
+        "vmess": 30,
+        "vless": 68,
+        "trojan": 4
+      }
+    },
+    "https://raw.githubusercontent.com/wangyingbo/v2rayse_sub/refs/heads/main/clashv2ray-hub_clashfree_sub/clashfree_clash.yaml": {
+      "type": "clash_yaml",
+      "total": 40,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 15,
+        "ss": 24,
+        "trojan": 1
+      }
+    },
+    "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml": {
+      "type": "clash_yaml",
+      "total": 227,
+      "children": 1,
+      "per_protocol": {
+        "vless": 225,
+        "trojan": 2
+      }
+    },
+    "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml": {
+      "type": "clash_yaml",
+      "total": 71,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 16,
+        "vless": 6,
+        "trojan": 49
+      }
+    },
+    "https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml": {
+      "type": "clash_yaml",
+      "total": 102,
+      "children": 14,
+      "per_protocol": {
+        "vmess": 30,
+        "vless": 68,
+        "trojan": 4
+      }
+    },
+    "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml": {
+      "type": "clash_yaml",
+      "total": 39,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 13,
+        "ss": 8,
+        "trojan": 18
+      }
+    },
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml": {
+      "type": "clash_yaml",
+      "total": 5385,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 2552,
+        "ss": 2181,
+        "trojan": 652
+      }
+    },
+    "https://raw.githubusercontent.com/mheidari98/.proxy/main/all": {
+      "type": "subscription_base64",
+      "total": 26192,
+      "children": 0,
+      "per_protocol": {
+        "ss": 3113,
+        "trojan": 3945,
+        "vless": 15028,
+        "vmess": 4106
+      }
+    },
+    "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml": {
+      "type": "clash_yaml",
+      "total": 3643,
+      "children": 1,
+      "per_protocol": {
+        "ss": 1177,
+        "trojan": 806,
+        "vmess": 1660
+      }
+    },
+    "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml": {
+      "type": "clash_yaml",
+      "total": 227,
+      "children": 1,
+      "per_protocol": {
+        "vless": 225,
+        "trojan": 2
+      }
+    },
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml": {
+      "type": "clash_yaml",
+      "total": 39,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 13,
+        "ss": 8,
+        "trojan": 18
+      }
+    },
+    "https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml": {
+      "type": "clash_yaml",
+      "total": 195,
+      "children": 1,
+      "per_protocol": {
+        "ss": 89,
+        "vmess": 106
+      }
+    },
+    "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml": {
+      "type": "clash_yaml",
+      "total": 176,
+      "children": 0,
+      "per_protocol": {
+        "vless": 165,
+        "vmess": 8,
+        "trojan": 3
+      }
+    },
+    "https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml": {
+      "type": "clash_yaml",
+      "total": 6004,
+      "children": 1,
+      "per_protocol": {
+        "vmess": 6000,
+        "vless": 4
+      }
+    },
+    "https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt": {
+      "type": "subscription_plain",
+      "total": 18579,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 444,
+        "trojan": 2876,
+        "vless": 14304,
+        "ss": 906,
+        "hysteria": 49
+      }
+    },
+    "https://raw.githubusercontent.com/Leon406/SubCrawler/refs/heads/main/sub/subs.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt": {
+      "type": "subscription_base64",
+      "total": 208,
+      "children": 0,
+      "per_protocol": {
+        "vless": 27,
+        "hysteria": 1,
+        "vmess": 117,
+        "trojan": 39,
+        "ss": 24
+      }
+    },
+    "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt": {
+      "type": "subscription_base64",
+      "total": 98,
+      "children": 0,
+      "per_protocol": {
+        "vless": 7,
+        "hysteria": 36,
+        "trojan": 47,
+        "vmess": 7,
+        "ss": 1
+      }
+    },
+    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/hysteria": {
+      "type": "subscription_base64",
+      "total": 17,
+      "children": 0,
+      "per_protocol": {
+        "vless": 4,
+        "hysteria": 13
+      }
+    },
+    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess": {
+      "type": "subscription_base64",
+      "total": 181,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 181
+      }
+    },
+    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless": {
+      "type": "subscription_base64",
+      "total": 13475,
+      "children": 0,
+      "per_protocol": {
+        "vless": 13475
+      }
+    },
+    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan": {
+      "type": "subscription_base64",
+      "total": 2587,
+      "children": 0,
+      "per_protocol": {
+        "trojan": 2587
+      }
+    },
+    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks": {
+      "type": "subscription_base64",
+      "total": 723,
+      "children": 0,
+      "per_protocol": {
+        "ss": 723
+      }
+    },
+    "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality": {
+      "type": "subscription_base64",
+      "total": 544,
+      "children": 0,
+      "per_protocol": {
+        "vless": 544
+      }
+    },
+    "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt": {
+      "type": "subscription_base64",
+      "total": 12,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 1,
+        "trojan": 1,
+        "vless": 4,
+        "ss": 6
+      }
+    },
+    "https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num": {
+      "type": "subscription_base64",
+      "total": 831,
+      "children": 0,
+      "per_protocol": {
+        "vless": 596,
+        "hysteria": 97,
+        "trojan": 50,
+        "ss": 26,
+        "vmess": 62
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub1.txt": {
+      "type": "subscription_plain",
+      "total": 438,
+      "children": 0,
+      "per_protocol": {
+        "vless": 8,
+        "hysteria": 13,
+        "trojan": 54,
+        "ss": 363
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub10.txt": {
+      "type": "subscription_plain",
+      "total": 418,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 418
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub2.txt": {
+      "type": "subscription_plain",
+      "total": 699,
+      "children": 0,
+      "per_protocol": {
+        "ss": 376,
+        "vmess": 323
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub3.txt": {
+      "type": "subscription_plain",
+      "total": 700,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 700
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub4.txt": {
+      "type": "subscription_plain",
+      "total": 700,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 700
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub5.txt": {
+      "type": "subscription_plain",
+      "total": 700,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 700
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub6.txt": {
+      "type": "subscription_plain",
+      "total": 700,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 700
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub7.txt": {
+      "type": "subscription_plain",
+      "total": 700,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 700
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub8.txt": {
+      "type": "subscription_plain",
+      "total": 700,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 700
+      }
+    },
+    "https://raw.githubusercontent.com/darknessm427/V2ray-Sub-Collector/refs/heads/main/Darkness%20Sub9.txt": {
+      "type": "subscription_plain",
+      "total": 700,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 700
+      }
+    },
+    "https://raw.githubusercontent.com/rankalpha/v2ray_sub/refs/heads/main/doc/raw.githubusercontent.com_040d69c1.json": {
+      "type": "subscription_base64",
+      "total": 1,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 1
+      }
+    },
+    "https://raw.githubusercontent.com/rankalpha/v2ray_sub/refs/heads/main/doc/raw.githubusercontent.com_5540b76b.json": {
+      "type": "subscription_base64",
+      "total": 30,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 30
+      }
+    },
+    "https://raw.githubusercontent.com/rankalpha/v2ray_sub/refs/heads/main/doc/raw.githubusercontent.com_6ba2602c.json": {
+      "type": "subscription_base64",
+      "total": 4,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 4
+      }
+    },
+    "https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/subscriptions/a.txt": {
+      "type": "subscription_base64",
+      "total": 27,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 9,
+        "vless": 15,
+        "trojan": 2,
+        "ss": 1
+      }
+    },
+    "https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/subscriptions/az404.4.8mt.txt": {
+      "type": "subscription_base64",
+      "total": 27,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 9,
+        "vless": 15,
+        "trojan": 2,
+        "ss": 1
+      }
+    },
+    "https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/subscriptions/b.txt": {
+      "type": "subscription_base64",
+      "total": 3,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 1,
+        "vless": 1,
+        "ss": 1
+      }
+    },
+    "https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/subscriptions/c.txt": {
+      "type": "subscription_base64",
+      "total": 27,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 9,
+        "vless": 15,
+        "trojan": 2,
+        "ss": 1
+      }
+    },
+    "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt": {
+      "type": "subscription_plain",
+      "total": 192,
+      "children": 0,
+      "per_protocol": {
+        "vless": 84,
+        "trojan": 50,
+        "ss": 26,
+        "hysteria": 8,
+        "vmess": 24
+      }
+    },
+    "http://141.147.161.50:12580/clash/proxies": {
+      "type": "clash_yaml",
+      "total": 600,
+      "children": 0,
+      "per_protocol": {
+        "ss": 192,
+        "vmess": 405,
+        "trojan": 3
+      }
+    },
+    "http://155.248.172.106:12580/clash/proxies": {
+      "type": "clash_yaml",
+      "total": 675,
+      "children": 0,
+      "per_protocol": {
+        "ss": 210,
+        "vmess": 424,
+        "trojan": 41
+      }
+    },
+    "http://66.42.50.118:12580/clash/proxies": {
+      "type": "clash_yaml",
+      "total": 36,
+      "children": 0,
+      "per_protocol": {
+        "ss": 36
+      }
+    },
+    "https://proxy.crazygeeky.com/clash/proxies": {
+      "type": "clash_yaml",
+      "total": 98,
+      "children": 0,
+      "per_protocol": {
+        "ss": 15,
+        "vmess": 82,
+        "trojan": 1
+      }
+    },
+    "https://proxypool.link/clash/proxies": {
+      "type": "clash_yaml",
+      "total": 585,
+      "children": 0,
+      "per_protocol": {
+        "ss": 189,
+        "vmess": 367,
+        "trojan": 29
+      }
+    },
+    "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/singbox_configs.json": {
+      "type": "singbox_json",
+      "total": 166,
+      "children": 1,
+      "per_protocol": {
+        "vless": 84,
+        "trojan": 50,
+        "ss": 10,
+        "vmess": 22
+      }
+    },
+    "http://www.gstatic.com/generate_204": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "http://ystce.com/vb/clash_ys.php": {
+      "type": "subscription_plain",
+      "error": "404 Client Error: Not Found for url: http://ystce.com/vb/clash_ys.php"
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/TikTok.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Steam.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://gist.githubusercontent.com/cnfree8964/0864fd1d2e88936a095fb40d74ce4993/raw/collection.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/IDM.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Spotify.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://sub.ndllz.me/serv00": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://fastly.jsdelivr.net/gh/MadisonWirtanen/WARP-Clash-with-ZJU-Rules@main/ai.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://quantil.jsdelivr.net/gh/ignaciocastro/a-dove-is-dumb@latest/127.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://sub.ndllz.me/backup": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "http://www.google.com/generate_204": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/bestsub.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 35,
+      "per_protocol": {}
+    },
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/HBO.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/openai.yaml": {
+      "type": "clash_yaml",
+      "total": 37,
+      "children": 0,
+      "per_protocol": {
+        "ss": 18,
+        "vmess": 10,
+        "trojan": 5,
+        "vless": 4
+      }
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Hulu.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/DisneyPlus.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Gemini.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://gist.githubusercontent.com/freeorgworld/128c0e7260148f61f8708c9566aed5ab/raw/all.yaml": {
+      "type": "clash_yaml",
+      "total": 161,
+      "children": 0,
+      "per_protocol": {
+        "trojan": 5,
+        "vless": 121,
+        "ss": 6,
+        "vmess": 29
+      }
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/ProxyClient.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/PayPal.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://gist.githubusercontent.com/freeorgworld/719565c5c8ced85ca71f3b261e117cd0/raw/all.yaml": {
+      "type": "clash_yaml",
+      "total": 3712,
+      "children": 0,
+      "per_protocol": {
+        "trojan": 170,
+        "ss": 281,
+        "vless": 3033,
+        "vmess": 228
+      }
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Netflix.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/AdBlock.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Amazon.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/Claude.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/zuluion/Clash-Template-Config@master/Filter/China.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cp.cloudflare.com/generate_204": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://www.google.com/favicon.ico": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://www.google.com/": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://www.google.com/generate_204": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube_No_Resolve.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/netflix.yaml": {
+      "type": "clash_yaml",
+      "total": 21,
+      "children": 0,
+      "per_protocol": {
+        "vmess": 2,
+        "vless": 9,
+        "trojan": 10
+      }
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Cloudflare/Cloudflare.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://youtube.com": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://openai.com": {
+      "type": "subscription_plain",
+      "error": "403 Client Error: Forbidden for url: https://openai.com/"
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://gstatic.com/generate_204": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_Classical_No_Resolve.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/disney.yaml": {
+      "type": "clash_yaml",
+      "total": 30,
+      "children": 0,
+      "per_protocol": {
+        "ss": 12,
+        "trojan": 15,
+        "vless": 2,
+        "vmess": 1
+      }
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok_No_Resolve.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Tencent/Tencent.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Nintendo/Nintendo.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney_No_Resolve.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PlayStation/PlayStation.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy_Classical_No_Resolve.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/speed.yaml": {
+      "type": "clash_yaml",
+      "total": 6,
+      "children": 0,
+      "per_protocol": {
+        "vless": 4,
+        "vmess": 2
+      }
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://disney.com": {
+      "type": "subscription_plain",
+      "error": "403 Client Error: Forbidden for url: https://www.disney.com/"
+    },
+    "https://netflix.com": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://telegram.org": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://github.com": {
+      "type": "subscription_plain",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/youtube.yaml": {
+      "type": "clash_yaml",
+      "total": 10,
+      "children": 0,
+      "per_protocol": {
+        "ss": 5,
+        "vmess": 2,
+        "trojan": 3
+      }
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Epic/Epic.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    },
+    "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Xbox/Xbox.yaml": {
+      "type": "clash_yaml",
+      "total": 0,
+      "children": 0,
+      "per_protocol": {}
+    }
+  }
+}
