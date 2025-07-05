@@ -1,0 +1,50 @@
+{
+  "ss": {
+    "transports": ["tcp"],
+    "default_port": 8388,
+    "checker": "tcp_check",
+    "required": ["server", "port", "method", "password"],
+    "optional": ["plugin", "plugin_opts", "remarks"],
+    "tls_supported": false
+  },
+  "vmess": {
+    "transports": ["tcp", "ws", "ws+tls"],
+    "default_port": 443,
+    "checker": "vmess_check",
+    "required": ["server", "port", "uuid"],
+    "optional": ["alterId", "transport", "host", "path", "tls"],
+    "tls_supported": true
+  },
+  "vless": {
+    "transports": ["tcp", "tls"],
+    "default_port": 443,
+    "checker": "tcp_check",
+    "required": ["server", "port", "uuid"],
+    "optional": ["flow", "encryption", "tls"],
+    "tls_supported": true
+  },
+  "trojan": {
+    "transports": ["tls"],
+    "default_port": 443,
+    "checker": "tls_check",
+    "required": ["server", "port", "password"],
+    "optional": ["alpn", "sni"],
+    "tls_supported": true
+  },
+  "hysteria2": {
+    "transports": ["udp"],
+    "default_port": 443,
+    "checker": "udp_check",
+    "required": ["server", "port", "auth_str"],
+    "optional": ["obfs", "up_mbps", "down_mbps"],
+    "tls_supported": false
+  },
+  "tuic": {
+    "transports": ["udp"],
+    "default_port": 443,
+    "checker": "udp_check",
+    "required": ["server", "port", "uuid", "password"],
+    "optional": ["congestion_control", "alpn", "sni"],
+    "tls_supported": true
+  }
+}

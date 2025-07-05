@@ -6,15 +6,16 @@
   "properties": {
     "raw":  { "type": "string" },
     "tag":  { "type": "string" },
-    "type": { "enum": ["ss", "vmess", "vless", "trojan", "hysteria2"] },
+    "type": { "enum": ["ss", "vmess", "vless", "trojan", "hysteria2", "tuic"] },
 
     "config": {
       "oneOf": [
-        { "$ref": "#/$defs/ssConfig" },
-        { "$ref": "#/$defs/vmessConfig" },
-        { "$ref": "#/$defs/vlessConfig" },
-        { "$ref": "#/$defs/trojanConfig" },
-        { "$ref": "#/$defs/hysteria2Config" }
+      { "$ref": "#/$defs/ssConfig" },
+      { "$ref": "#/$defs/vmessConfig" },
+      { "$ref": "#/$defs/vlessConfig" },
+      { "$ref": "#/$defs/trojanConfig" },
+      { "$ref": "#/$defs/hysteria2Config" },
+      { "$ref": "#/$defs/tuicConfig" }
       ]
     },
 
@@ -113,6 +114,26 @@
             "obfs": { "type": "string" },
             "obfs_password": { "type": "string" },
             "fingerprint": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "tuicConfig": {
+      "type": "object",
+      "required": ["type", "server", "port", "password", "tls"],
+      "properties": {
+        "type": { "const": "tuic" },
+        "server": { "type": "string" },
+        "port": { "type": "integer" },
+        "password": { "type": "string" },
+        "tls": {
+          "type": "object",
+          "required": ["enabled"],
+          "properties": {
+            "enabled": { "type": "boolean" }
           },
           "additionalProperties": false
         }
