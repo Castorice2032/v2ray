@@ -1,0 +1,62 @@
+[
+  {
+    "input": "tuic://password@server.example.com:443?alpn=h3&congestion_control=bbr&udp_relay_mode=native#Test-TUIC",
+    "valid": true,
+    "error": null,
+    "health": {
+      "ok": false,
+      "reason": "missing_host_or_port"
+    }
+  },
+  {
+    "input": "hysteria://195.154.200.178:46938?upmbps=11&downmbps=55&auth=dongtaiwang.com&insecure=1&peer=apple.com&alpn=h3#🔒 HYSTERIA-UDP 🇫🇷 FR-195.154.200.178:46938",
+    "valid": false,
+    "error": "'hysteria' is not one of ['ss', 'vmess', 'vless', 'trojan', 'hysteria2', 'tuic']\n\nFailed validating 'enum' in schema['properties']['type']:\n    {'enum': ['ss', 'vmess', 'vless', 'trojan', 'hysteria2', 'tuic']}\n\nOn instance['type']:\n    'hysteria'",
+    "health": null
+  },
+  {
+    "input": "hysteria2://9FmazX8AAPpM8TQcNyI2zvBDF5o@92.112.23.216:28264?insecure=1#Channel%20id%3A%20%40ShadowProxy66%F0%9F%87%B8%F0%9F%87%AC",
+    "valid": true,
+    "error": null,
+    "health": {
+      "ok": false,
+      "reason": "missing_host_or_port"
+    }
+  },
+  {
+    "input": "ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206WkdGa1l6TmhOMlEyT1dOaE1EYzRZamMwTVRWbU9URmlPRFZsTURjNE9ETT06WWpSaU9HVTNNekV0T1dFNU1DMDBZamMzTFRnek5EY3RNakk0TUdWa05ETT0@v2.sulink.one:13102",
+    "valid": true,
+    "error": null,
+    "health": {
+      "ok": false,
+      "reason": "missing_host_or_port"
+    }
+  },
+  {
+    "input": "trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21056",
+    "valid": true,
+    "error": null,
+    "health": {
+      "ok": false,
+      "reason": "missing_host_or_port"
+    }
+  },
+  {
+    "input": "vless://8509cb5e-5144-4b9f-8df8-1b2c8c372ecd@q47hch.chinese-sm.com:30002",
+    "valid": true,
+    "error": null,
+    "health": {
+      "ok": false,
+      "reason": "missing_host_or_port"
+    }
+  },
+  {
+    "input": "vmess://eyJuYW1lIjogIlx1ZDgzY1x1ZGRlOFx1ZDgzY1x1ZGRmM19DTl9cdTRlMmRcdTU2ZmQtPlx1ZDgzY1x1ZGZmM1x1ZmUwZl91bktub3dfXHU2NzJhXHU3N2U1IiwgInR5cGUiOiAidm1lc3MiLCAic2VydmVyIjogInY3LmhlZHVpYW4ubGluayIsICJwb3J0IjogMzA4MDcsICJjaXBoZXIiOiAiYXV0byIsICJ1dWlkIjogInY3LmhlZHVpYW4ubGluazozMDgwNz90eXBlPXdzJmVuY3J5cHRpb249YXV0byMlRjAlOUYlODclQTglRjAlOUYlODclQjNfQ05fJUU0JUI4JUFEJUU1JTlCJUJELSUzRSVGMCU5RiU4RiVCMyVFRiVCOCU4Rl91bktub3dfJUU2JTlDJUFBJUU3JTlGJUE1IiwgImFsdGVySWQiOiAwLCAidGxzIjogZmFsc2UsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgIm5ldHdvcmsiOiAid3MifQ",
+    "valid": true,
+    "error": null,
+    "health": {
+      "ok": false,
+      "reason": "missing_host_or_port"
+    }
+  }
+]

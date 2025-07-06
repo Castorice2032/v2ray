@@ -1,5 +1,10 @@
-requests
-python-dotenv
-pyyaml
-aioping
-aiohttp
+# Project dependencies (minimal and intentional)
+requests>=2.32.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+aioping>=0.0.13
+aiohttp>=3.12.0
+geoip2>=5.1.0
+maxminddb>=2.7.0
+python-nmap>=0.7.1
+PySocks>=1.7.1

@@ -1,0 +1,265 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "XrayConfig",
+  "type": "object",
+  "required": ["inbounds", "outbounds"],
+  "properties": {
+    "log": { "type": "object" },
+    "dns": { "type": "object" },
+    "routing": { "type": "object" },
+    "inbounds": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/inboundCommon" },
+      "minItems": 1
+    },
+    "outbounds": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/outboundCommon" },
+      "minItems": 1
+    }
+  },
+
+  "$defs": {
+    "inboundCommon": {
+      "type": "object",
+      "required": ["tag", "protocol", "port"],
+      "properties": {
+        "tag":       { "type": "string" },
+        "listen":    { "type": "string" },
+        "port":      { "type": "integer" },
+        "protocol":  { "enum": ["socks", "http", "shadowsocks", "trojan", "vmess", "vless", "hysteria", "hysteria2", "tuic"] },
+        "settings":  { "type": "object" },
+        "streamSettings": { "$ref": "#/$defs/streamCommon" }
+      },
+      "additionalProperties": false
+    },
+
+    "outboundCommon": {
+      "type": "object",
+      "required": ["tag", "protocol", "settings"],
+      "properties": {
+        "tag":      { "type": "string" },
+        "protocol": { "enum": ["freedom","blackhole","ss","vmess","vless","trojan","hysteria","hysteria2","tuic"] },
+        "settings": {
+          "oneOf": [
+            { "$ref": "#/$defs/ssSettings" },
+            { "$ref": "#/$defs/vmessSettings" },
+            { "$ref": "#/$defs/vlessSettings" },
+            { "$ref": "#/$defs/trojanSettings" },
+            { "$ref": "#/$defs/hysteriaSettings" },
+            { "$ref": "#/$defs/hysteria2Settings" },
+            { "$ref": "#/$defs/tuicSettings" },
+            { "type": "object" }      /* freedom / blackhole */
+          ]
+        },
+        "streamSettings": { "$ref": "#/$defs/streamCommon" }
+      },
+      "additionalProperties": false
+    },
+
+    /* ───────── protocol-specific settings ───────── */
+
+    "ssSettings": {
+      "type": "object",
+      "required": ["servers"],
+      "properties": {
+        "servers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["address","port","method","password"],
+            "properties": {
+              "address":  { "type": "string" },
+              "port":     { "type": "integer" },
+              "method":   { "type": "string" },
+              "password": { "type": "string" },
+              "udp":      { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "trojanSettings": {
+      "type": "object",
+      "required": ["servers"],
+      "properties": {
+        "servers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["address","port","password"],
+            "properties": {
+              "address": { "type": "string" },
+              "port":    { "type": "integer" },
+              "password":{ "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "vmessSettings": {
+      "type": "object",
+      "required": ["vnext"],
+      "properties": {
+        "vnext": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["address","port","users"],
+            "properties": {
+              "address": { "type": "string" },
+              "port":    { "type": "integer" },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["id"],
+                  "properties": {
+                    "id":      { "type": "string" },
+                    "alterId": { "type": "integer" }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "vlessSettings": {
+      "type": "object",
+      "required": ["vnext"],
+      "properties": {
+        "vnext": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["address","port","users"],
+            "properties": {
+              "address": { "type": "string" },
+              "port":    { "type": "integer" },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["id"],
+                  "properties": {
+                    "id":   { "type": "string" },
+                    "flow": { "type": "string" }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "hysteriaSettings": {
+      "type": "object",
+      "required": ["servers"],
+      "properties": {
+        "servers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["address","port","password"],
+            "properties": {
+              "address": { "type": "string" },
+              "port":    { "type": "integer" },
+              "password":{ "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "hysteria2Settings": {
+      "type": "object",
+      "required": ["servers"],
+      "properties": {
+        "servers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["address","port","password"],
+            "properties": {
+              "address": { "type": "string" },
+              "port":    { "type": "integer" },
+              "password":{ "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "tuicSettings": {
+      "type": "object",
+      "required": ["servers"],
+      "properties": {
+        "servers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["address","port","password","uuid"],
+            "properties": {
+              "address":             { "type": "string" },
+              "port":                { "type": "integer" },
+              "password":            { "type": "string" },
+              "uuid":                { "type": "string" },
+              "congestion_control":  { "type": "string" },
+              "udp_relay_mode":      { "type": "string" },
+              "alpn": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    /* ───────── streamSettings مشترک ───────── */
+
+    "streamCommon": {
+      "type": "object",
+      "properties": {
+        "network":  { "enum": ["tcp","ws","grpc"] },
+        "security": { "enum": ["none","tls","reality"] },
+        "tcpSettings": {
+          "type": "object",
+          "properties": { "header": { "type": "object" } }
+        },
+        "wsSettings": {
+          "type": "object",
+          "properties": {
+            "path": { "type": "string" },
+            "headers": { "type": "object" }
+          }
+        },
+        "grpcSettings": {
+          "type": "object",
+          "properties": { "serviceName": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

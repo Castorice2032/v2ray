@@ -9,3 +9,128 @@ Traceback (most recent call last):
              ~~^~~
 ZeroDivisionError: division by zero
 [2025-07-04 23:24:29,595] ERROR DatabaseManager: No database URL found in .env. Please set DATABASE_URL, DB_URL, or POSTGRES_URL.
+[2025-07-05 16:42:57,536] ERROR health_checker: ❌ Failed to load protocol schema: [Errno 2] No such file or directory: '/workspaces/v2ray/pipeline/config/protocol.json'
+[2025-07-05 16:43:18,975] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:43:18,990] ERROR health_checker: [] missing host/port
+[2025-07-05 16:43:19,152] INFO health_checker: [ss] ✅ example.com:443 (159ms)
+[2025-07-05 16:43:19,152] ERROR health_checker: [unknown_protocol] unsupported protocol
+[2025-07-05 16:43:19,293] INFO health_checker: [ss] ✅ example.com:443 (139ms)
+[2025-07-05 16:43:19,296] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:43:19,468] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:43:19,615] INFO health_checker: [ss] ✅ example.com:443 (144ms)
+[2025-07-05 16:43:19,664] WARNING health_checker: DNS resolution failed for invalid.domain.that.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 16:43:51,769] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:43:51,773] ERROR health_checker: [] missing host/port
+[2025-07-05 16:43:51,858] INFO health_checker: [ss] ✅ example.com:443 (83ms)
+[2025-07-05 16:43:51,858] ERROR health_checker: [unknown_protocol] unsupported protocol
+[2025-07-05 16:43:52,005] INFO health_checker: [ss] ✅ example.com:443 (145ms)
+[2025-07-05 16:43:52,008] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:43:52,189] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:43:52,330] INFO health_checker: [ss] ✅ example.com:443 (139ms)
+[2025-07-05 16:43:52,362] WARNING health_checker: DNS resolution failed for invalid.domain.that.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 16:44:09,594] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:44:09,598] ERROR health_checker: [] missing host/port
+[2025-07-05 16:44:09,742] INFO health_checker: [ss] ✅ example.com:443 (141ms)
+[2025-07-05 16:44:09,743] ERROR health_checker: [unknown_protocol] unsupported protocol
+[2025-07-05 16:44:09,889] INFO health_checker: [ss] ✅ example.com:443 (144ms)
+[2025-07-05 16:44:09,893] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:44:10,118] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:44:10,202] INFO health_checker: [ss] ✅ example.com:443 (82ms)
+[2025-07-05 16:44:10,242] WARNING health_checker: DNS resolution failed for invalid.domain.that.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 16:44:48,168] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:44:48,172] ERROR health_checker: [] missing host/port
+[2025-07-05 16:44:48,259] INFO health_checker: [ss] ✅ example.com:443 (85ms)
+[2025-07-05 16:44:48,259] ERROR health_checker: [unknown_protocol] unsupported protocol
+[2025-07-05 16:44:48,261] INFO health_checker: [ss] ✅ example.com:443 (0ms)
+[2025-07-05 16:44:48,264] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:44:48,361] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:44:48,390] WARNING health_checker: DNS resolution failed for invalid.domain.that.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 16:45:00,982] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:45:00,990] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:45:01,083] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:45:01,315] INFO health_checker: [vless] ✅ q47hch.chinese-sm.com:30002 (231ms)
+[2025-07-05 16:45:04,020] WARNING health_checker: [trojan] ❌ 120.233.44.201:21056 → timed out
+[2025-07-05 16:45:22,022] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:45:22,116] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:45:22,116] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:45:29,125] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:45:30,150] WARNING health_checker: [trojan] ❌ 120.233.44.201:21056 → timed out
+[2025-07-05 16:45:30,369] INFO health_checker: [vless] ✅ q47hch.chinese-sm.com:30002 (217ms)
+[2025-07-05 16:45:30,371] ERROR health_checker: [vmess] missing host/port
+[2025-07-05 16:45:30,371] ERROR health_checker: [ss] missing host/port
+[2025-07-05 16:45:30,371] ERROR health_checker: [ss] missing host/port
+[2025-07-05 16:45:30,371] ERROR health_checker: [unknown] unsupported protocol
+[2025-07-05 16:45:30,403] WARNING health_checker: DNS resolution failed for invalid.domain.that.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 16:47:14,892] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:47:14,893] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:47:15,014] WARNING health_checker: DNS resolution failed for server.example.com: [Errno -2] Name or service not known
+[2025-07-05 16:47:15,220] INFO health_checker: [vless] ✅ q47hch.chinese-sm.com:30002 (205ms)
+[2025-07-05 16:47:17,922] WARNING health_checker: [trojan] ❌ 120.233.44.201:21056 → timed out
+[2025-07-05 16:47:18,251] WARNING health_checker: [vmess] ❌ v7.heduian.link:30807 → timed out
+[2025-07-05 16:47:35,918] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:52:15,747] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:52:15,747] ERROR health_checker: [] missing host/port
+[2025-07-05 16:52:15,747] ERROR health_checker: [unknown] unsupported protocol
+[2025-07-05 16:52:15,749] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:52:15,929] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:52:19,009] WARNING health_checker: [trojan] ❌ 120.233.44.201:21056 → timed out
+[2025-07-05 16:52:19,220] INFO health_checker: [vless] ✅ q47hch.chinese-sm.com:30002 (209ms)
+[2025-07-05 16:52:19,220] INFO health_checker: [vmess] ✅ example.com:443 (0ms)
+[2025-07-05 16:52:36,789] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:52:36,791] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:52:36,966] WARNING health_checker: DNS resolution failed for server.example.com: [Errno -2] Name or service not known
+[2025-07-05 16:52:57,815] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:52:57,854] WARNING health_checker: DNS resolution failed for invalid.domain.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 16:52:58,018] INFO health_checker: [ss] ✅ example.com:443 (162ms)
+[2025-07-05 16:53:40,800] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:53:40,800] ERROR health_checker: [] missing host/port
+[2025-07-05 16:53:40,801] ERROR health_checker: [unknown] unsupported protocol
+[2025-07-05 16:53:40,802] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:53:40,980] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:53:44,013] WARNING health_checker: [trojan] ❌ 120.233.44.201:21056 → timed out
+[2025-07-05 16:53:44,240] INFO health_checker: [vless] ✅ q47hch.chinese-sm.com:30002 (225ms)
+[2025-07-05 16:53:44,241] INFO health_checker: [vmess] ✅ example.com:443 (0ms)
+[2025-07-05 16:54:01,825] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:54:01,826] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:54:01,998] WARNING health_checker: DNS resolution failed for server.example.com: [Errno -2] Name or service not known
+[2025-07-05 16:54:22,848] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:54:22,886] WARNING health_checker: DNS resolution failed for invalid.domain.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 16:54:22,971] INFO health_checker: [ss] ✅ example.com:443 (84ms)
+[2025-07-05 16:54:33,861] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 16:54:33,861] ERROR health_checker: [] missing host/port
+[2025-07-05 16:54:33,862] ERROR health_checker: [unknown] unsupported protocol
+[2025-07-05 16:54:33,863] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:54:34,050] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 16:54:37,081] WARNING health_checker: [trojan] ❌ 120.233.44.201:21056 → timed out
+[2025-07-05 16:54:37,287] INFO health_checker: [vless] ✅ q47hch.chinese-sm.com:30002 (205ms)
+[2025-07-05 16:54:37,287] INFO health_checker: [vmess] ✅ example.com:443 (0ms)
+[2025-07-05 16:54:54,888] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:54:54,889] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 16:54:54,983] WARNING health_checker: DNS resolution failed for server.example.com: [Errno -2] Name or service not known
+[2025-07-05 16:55:15,911] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 16:55:15,944] WARNING health_checker: DNS resolution failed for invalid.domain.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 16:55:16,086] INFO health_checker: [ss] ✅ example.com:443 (140ms)
+[2025-07-05 17:07:35,248] INFO health_checker: ✅ Loaded protocol schema from /workspaces/v2ray/config/protocol.json
+[2025-07-05 17:07:35,249] ERROR health_checker: [] missing host/port
+[2025-07-05 17:07:35,249] ERROR health_checker: [unknown] unsupported protocol
+[2025-07-05 17:07:35,251] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 17:07:35,436] WARNING health_checker: [tuic] ❌ server.example.com:443 → [Errno -2] Name or service not known
+[2025-07-05 17:07:38,470] WARNING health_checker: [trojan] ❌ 120.233.44.201:21056 → timed out
+[2025-07-05 17:07:38,697] INFO health_checker: [vless] ✅ q47hch.chinese-sm.com:30002 (225ms)
+[2025-07-05 17:07:38,697] INFO health_checker: [vmess] ✅ example.com:443 (0ms)
+[2025-07-05 17:07:56,287] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 17:07:56,288] INFO health_checker: [hysteria2] ✅ 92.112.23.216:28264 (0ms)
+[2025-07-05 17:07:56,394] WARNING health_checker: DNS resolution failed for server.example.com: [Errno -2] Name or service not known
+[2025-07-05 17:08:17,312] WARNING health_checker: [ss] ❌ v2.sulink.one:13102 → [Errno 101] Network is unreachable
+[2025-07-05 17:08:17,354] WARNING health_checker: DNS resolution failed for invalid.domain.does.not.exist: [Errno -2] Name or service not known
+[2025-07-05 17:08:17,355] WARNING health_checker: [ss] ❌ example.com:443 → Connection timeout
+[2025-07-05 20:08:31,879] DEBUG __main__: این یک پیام DEBUG است برای تست جزئیات.
+[2025-07-05 20:08:31,880] INFO __main__: این یک پیام INFO است برای اطلاعات عمومی.
+[2025-07-05 20:08:31,880] WARNING __main__: این یک پیام WARNING است برای هشدار.
+[2025-07-05 20:08:31,880] ERROR __main__: این یک پیام ERROR است برای خطاها.
+[2025-07-05 20:08:31,880] ERROR __main__: یک استثنا رخ داد: division by zero
+Traceback (most recent call last):
+  File "/workspaces/v2ray/test/log.test.py", line 21, in test_logging
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
