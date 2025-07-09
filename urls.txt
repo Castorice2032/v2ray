@@ -64,6 +64,25 @@ https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main
 https://raw.githubusercontent.com/teknovpnhub/v2ray-subscription/refs/heads/main/subscriptions/c.txt
 https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt
 
+https://raw.githubusercontent.com/jolly97/Config/refs/heads/main/README.md
+
+https://rawcdn.githack.com/Surfboardv2ray/TGParse/ee48673e86b4ba93b4a26fa35227e03fbba0a653/configtg.txt
+
+https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/V2Ray-Config-By-EbraSha-All-Type.txt
+
+https://raw.githubusercontent.com/PlanAsli/configs-collector-v2ray/refs/heads/main/sub/protocols/shadowsocks.txt
+
+https://raw.githubusercontent.com/PlanAsli/configs-collector-v2ray/refs/heads/main/sub/protocols/trojan.txt
+
+https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/refs/heads/main/v2ray_configs.txt
+
+https://raw.githubusercontent.com/rasool083/v2ray-sub/refs/heads/main/sub.txt
+
+https://raw.githubusercontent.com/mehrdadmb2/V2ray_Sub/refs/heads/main/Mix.txt
+
+https://raw.githubusercontent.com/ermaozi/get_subscribe/refs/heads/main/subscribe/v2ray.txt
+
+https://raw.githubusercontent.com/Geminiburma/v2ray-subscription/refs/heads/main/subcreation.txt
 
 #object
 http://141.147.161.50:12580/clash/proxies
@@ -76,3 +95,11 @@ https://proxypool.link/clash/proxies
 
 # singbox_configs
 https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/singbox_configs.json
+
+
+https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/list/hy2.txt
+https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/list/hysteria2.txt
+https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/list/ss.txt
+https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/list/trojan.txt
+https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/list/wireguard.txt
+https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/list/tuic.txt

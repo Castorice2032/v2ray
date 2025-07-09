@@ -32,7 +32,7 @@
 
   "outbounds": [
     {
-      "tag": "proxy",
+      "tag": "vless-1",
       "protocol": "vless",
       "settings": {
         "vnext": [

@@ -1,3 +1,0 @@
-{"ok": false, "line": 179, "reason": "parse_failed", "link": "trojan://TestingServer@@@94.102.53.19:443"}
-{"ok": false, "line": 3606, "reason": "parse_failed", "link": "trojan://TestingServer@@@94.102.53.19:443?security=tls#4FreeIran-5977"}
-{"ok": false, "line": 11398, "reason": "parse_failed", "link": "trojan://T@_WvT8Ho@LW%w_,@172.66.44.214:2053"}

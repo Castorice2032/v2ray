@@ -1,0 +1,5 @@
+{
+  "log": { "loglevel": "warn" },
+  "inbounds": [{ "listen":"127.0.0.1", "port":51837, "protocol":"socks", "settings":{} }],
+  "outbounds": [{ "protocol":"freedom", "settings":{} }]
+}
